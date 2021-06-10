@@ -173,20 +173,20 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.mau(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(5)
+    sleep(2)
     await typew.edit("**Udah punya pacar belom?**")
     sleep(3)
     await typew.edit("**kalo belum**")
     sleep(4)
     await typew.edit("**kamu mau gak jadi pagar aku?❤️**")
     sleep(2)
-    await typew.edit("**pacor**")
+    await typew.edit("**Bercanda!**")
     sleep(1)
-    await typew.edit("**bot rusakk**")
+    await typew.edit("**serius ama iduplu**")
     sleep(2)
-    await typew.edit("**dah lah**")
-    slep(1)
-    await typew.edit("**gak jadi**")
+    await typew.edit("**gitu doang baper**")
+    slep(2)
+    await typew.edit("**Bercandaa**")
 
 
 CMD_HELP.update(
