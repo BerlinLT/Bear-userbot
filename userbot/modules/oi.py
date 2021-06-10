@@ -170,7 +170,7 @@ async def typewriter(typew):
     await typew.edit("**EMANG KITA KENAL? KAGA GOBLOK SOKAB BANGET LU GOBLOK**")
     
     
-@register(outgoing=True, pattern=r"^\.semangat(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.mau(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(5)
@@ -226,7 +226,7 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek anak haram\
         \n\n  •  **Syntax :** `.gcs`\
         \n  •  **Function : **Ngeledek gc sampah\
-        \n\n  •  **Syntax :** `.caper`\
+        \n\n  •  **Syntax :** `.mau`\
         \n  •  **Function : **nembak online tapi gak jadi\
         \n\n**Klo mau Req, kosa kata dari lu Hubungi @mrismanaziz**\
     "
