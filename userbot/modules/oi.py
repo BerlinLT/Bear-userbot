@@ -185,7 +185,7 @@ async def typewriter(typew):
     await typew.edit("**serius ama iduplu**")
     sleep(2)
     await typew.edit("**gitu doang baper**")
-    slep(2)
+    sleep(2)
     await typew.edit("**Bercandaa**")
     
     
@@ -204,7 +204,7 @@ async def typewriter(typew):
     await typew.edit("**tetep gak bisa🥺**")
     sleep(2)
     await typew.edit("**maaf yaaa😗**")
-    slep(2)
+    sleep(2)
     await typew.edit("**eet tapi bo'ong🌚**")
 
 
