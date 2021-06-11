@@ -189,7 +189,7 @@ async def typewriter(typew):
     await typew.edit("**Bercandaa**")
     
     
-    @register(outgoing=True, pattern=r"^\.mksh(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.mksh(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
@@ -247,7 +247,7 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek gc sampah\
         \n\n  •  **Syntax :** `.mau`\
         \n  •  **Function : **nembak online tapi gak jadi\
-        \n\n  •  **Syntax :** `.mksh`\
+        \n\n  •  **Syntax :** `.makasih`\
         \n  •  **Function : **nembak online tapi tapi bo'ong\
         \n\n**Klo mau Req, kosa kata dari lu Hubungi @BerlinLT**\
     "
