@@ -178,7 +178,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**kalo belum**")
     sleep(4)
-    await typew.edit("**kamu mau gak jadi pagar aku?❤️**")
+    await typew.edit("**kamu mau gak jadi pacar aku?❤️**")
     sleep(2)
     await typew.edit("**Bercanda!**")
     sleep(1)
@@ -187,6 +187,25 @@ async def typewriter(typew):
     await typew.edit("**gitu doang baper**")
     slep(2)
     await typew.edit("**Bercandaa**")
+    
+    
+    @register(outgoing=True, pattern=r"^\.mksh(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("**makasih yaa**")
+    sleep(3)
+    await typew.edit("**tapi maaf yaaa**")
+    sleep(3)
+    await typew.edit("**aku suka sama kamu❤️**")
+    sleep(3)
+    await typew.edit("**Gak sengaja sumpah,udah ku cancel**")
+    sleep(4)
+    await typew.edit("**tetep gak bisa🥺**")
+    sleep(2)
+    await typew.edit("**maaf yaaa😗**")
+    slep(2)
+    await typew.edit("**eet tapi bo'ong🌚**")
 
 
 CMD_HELP.update(
@@ -228,7 +247,9 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek gc sampah\
         \n\n  •  **Syntax :** `.mau`\
         \n  •  **Function : **nembak online tapi gak jadi\
-        \n\n**Klo mau Req, kosa kata dari lu Hubungi @mrismanaziz**\
+        \n\n  •  **Syntax :** `.mksh`\
+        \n  •  **Function : **nembak online tapi tapi bo'ong\
+        \n\n**Klo mau Req, kosa kata dari lu Hubungi @BerlinLT**\
     "
     }
 )
